@@ -9,7 +9,7 @@
 Esta API **solo usa** el metodo HTTP POST.
 
 ## API Endpoint
-Django correra por defecto el servidor en localhost con puerto 8000 (127.0.0.1:8000).
+Django correra por defecto el servidor en localhost con puerto 8000 (127.0.0.1:8000). 
 Usando postman o insomnia escribimos la dirección:
 http://127.0.0.1:8000/endpoint
 
@@ -35,9 +35,9 @@ En el body de la petición enviamos la información de registro, o de inicio de 
 Los datos se envian en formato **JSON**.
 
 **Ejemplo de Signup / Registro de usuario**
-"username": "Lilit01",
-"password": "P12345P",
-"email": "lilit_apple@gmail.com"
++ "username": "Lilit01",
++ "password": "P12345P",
++ "email": "lilit_apple@gmail.com"
 
 ### CÓDIGO DE ESTADO HTTP
 **200** _OK_ La solicitud ha tenido éxito.
